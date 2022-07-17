@@ -1,0 +1,17 @@
+/home/anomcba/Financeiro/Financeiro.Infra.Data/bin/Debug/net6.0/Financeiro.Infra.Data.deps.json
+/home/anomcba/Financeiro/Financeiro.Infra.Data/bin/Debug/net6.0/Financeiro.Infra.Data.dll
+/home/anomcba/Financeiro/Financeiro.Infra.Data/bin/Debug/net6.0/ref/Financeiro.Infra.Data.dll
+/home/anomcba/Financeiro/Financeiro.Infra.Data/bin/Debug/net6.0/Financeiro.Infra.Data.pdb
+/home/anomcba/Financeiro/Financeiro.Infra.Data/bin/Debug/net6.0/Financeiro.Domain.dll
+/home/anomcba/Financeiro/Financeiro.Infra.Data/bin/Debug/net6.0/Financeiro.Domain.pdb
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.csproj.AssemblyReference.cache
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.AssemblyInfoInputs.cache
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.AssemblyInfo.cs
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.csproj.CoreCompileInputs.cache
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.csproj.CopyComplete
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.dll
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/ref/Financeiro.Infra.Data.dll
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.pdb
+/home/anomcba/Financeiro/Financeiro.Infra.Data/bin/Debug/net6.0/Financeiro.Infra.Data.runtimeconfig.json
+/home/anomcba/Financeiro/Financeiro.Infra.Data/obj/Debug/net6.0/Financeiro.Infra.Data.genruntimeconfig.cache

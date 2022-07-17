@@ -1,0 +1,15 @@
+/home/anomcba/Financeiro/Financeiro.Application/bin/Debug/net6.0/Financeiro.Application.deps.json
+/home/anomcba/Financeiro/Financeiro.Application/bin/Debug/net6.0/Financeiro.Application.dll
+/home/anomcba/Financeiro/Financeiro.Application/bin/Debug/net6.0/ref/Financeiro.Application.dll
+/home/anomcba/Financeiro/Financeiro.Application/bin/Debug/net6.0/Financeiro.Application.pdb
+/home/anomcba/Financeiro/Financeiro.Application/bin/Debug/net6.0/Financeiro.Domain.dll
+/home/anomcba/Financeiro/Financeiro.Application/bin/Debug/net6.0/Financeiro.Domain.pdb
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.csproj.AssemblyReference.cache
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.AssemblyInfoInputs.cache
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.AssemblyInfo.cs
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.csproj.CoreCompileInputs.cache
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.csproj.CopyComplete
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.dll
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/ref/Financeiro.Application.dll
+/home/anomcba/Financeiro/Financeiro.Application/obj/Debug/net6.0/Financeiro.Application.pdb

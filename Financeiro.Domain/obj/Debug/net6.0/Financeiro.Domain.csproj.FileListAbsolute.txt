@@ -1,0 +1,12 @@
+/home/anomcba/Financeiro/Financeiro.Domain/bin/Debug/net6.0/Financeiro.Domain.deps.json
+/home/anomcba/Financeiro/Financeiro.Domain/bin/Debug/net6.0/Financeiro.Domain.dll
+/home/anomcba/Financeiro/Financeiro.Domain/bin/Debug/net6.0/ref/Financeiro.Domain.dll
+/home/anomcba/Financeiro/Financeiro.Domain/bin/Debug/net6.0/Financeiro.Domain.pdb
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/Financeiro.Domain.csproj.AssemblyReference.cache
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/Financeiro.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/Financeiro.Domain.AssemblyInfoInputs.cache
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/Financeiro.Domain.AssemblyInfo.cs
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/Financeiro.Domain.csproj.CoreCompileInputs.cache
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/Financeiro.Domain.dll
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/ref/Financeiro.Domain.dll
+/home/anomcba/Financeiro/Financeiro.Domain/obj/Debug/net6.0/Financeiro.Domain.pdb
