@@ -8,6 +8,6 @@ namespace Financeiro.Application.Interfaces
         Task<IEnumerable<CardDTO>> GetCards();
         Task Create(CardDTO cardDto);
         Task Update(CardDTO cardDto);
-        Task Remove(CardDTO cardDto);        
+        Task Remove(int? id);        
     }
 }

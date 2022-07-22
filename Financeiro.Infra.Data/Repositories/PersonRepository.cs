@@ -20,7 +20,7 @@ namespace Financeiro.Infra.Data.Repositories
             return person;
         }
 
-        public async Task<IEnumerable<Bank>> GetBanks()
+        public async Task<IEnumerable<Bank>> GetBanks(int? id)
         {
             return await _personContext.Banks.ToListAsync();
         }

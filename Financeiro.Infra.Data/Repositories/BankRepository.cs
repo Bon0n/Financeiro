@@ -35,6 +35,12 @@ namespace Financeiro.Infra.Data.Repositories
             return await _bankContext.Cards.ToListAsync();
         }
 
+        public async Task<Bank> GetBankPersonId(int? id)
+        {
+            return await _bankContext.Banks.Include(p => p.Person)
+                .SingleOrDefaultAsync(b => b.Id == id);
+        }
+
         public async Task<Bank> Remove(Bank bank)
         {
             _bankContext.Remove(bank);

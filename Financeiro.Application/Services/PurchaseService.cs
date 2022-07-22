@@ -40,9 +40,9 @@ namespace Financeiro.Application.Services
             await _purchaseRepository.Update(purchaseEntity);
         }
 
-        public async Task Remove(PurchaseDTO purchaseDto)
+        public async Task Remove(int? id)
         {
-            var purchaseEntity = _mapper.Map<Purchase>(purchaseDto);
+            var purchaseEntity = _purchaseRepository.GetById(id).Result;
             await _purchaseRepository.Remove(purchaseEntity);
         }
     }

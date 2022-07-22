@@ -1,9 +1,9 @@
+using Financeiro.Application.DTOs;
 using Financeiro.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Financeiro.WebUI.Controllers
 {
-    [Route("purchases")]
     public class PurchaseController : Controller
     {
         private readonly IPurchaseService _purchaseService;
@@ -20,7 +20,22 @@ namespace Financeiro.WebUI.Controllers
             return View(purchases);
         }
 
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
         [HttpPost]
+        public async Task<IActionResult> Create(PurchaseDTO purchaseDto)
+        {
+            if(ModelState.IsValid)
+            {
+                await _purchaseService.Create(purchaseDto);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(purchaseDto);
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

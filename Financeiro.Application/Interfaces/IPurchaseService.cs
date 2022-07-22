@@ -8,6 +8,6 @@ namespace Financeiro.Application.Interfaces
         Task<IEnumerable<PurchaseDTO>> GetPurchases();
         Task Create(PurchaseDTO PurchaseDto);
         Task Update(PurchaseDTO PurchaseDto);
-        Task Remove(PurchaseDTO PurchaseDto);       
+        Task Remove(int? id);       
     }
 }

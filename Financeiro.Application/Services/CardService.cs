@@ -34,9 +34,9 @@ namespace Financeiro.Application.Services
             return _mapper.Map<IEnumerable<CardDTO>>(cardEntity);
         }
 
-        public async Task Remove(CardDTO cardDto)
+        public async Task Remove(int? id)
         {
-            var cardEntity = _mapper.Map<Card>(cardDto);
+            var cardEntity = _cardRepository.GetById(id).Result;
             await _cardRepository.Remove(cardEntity);
         }
 

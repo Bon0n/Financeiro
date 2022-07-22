@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace Financeiro.WebUI.Views.Banks
+namespace Financeiro.WebUI.Views.Person
 {
-    public class Index : PageModel
+    public class Delete : PageModel
     {
-        private readonly ILogger<Index> _logger;
+        private readonly ILogger<Delete> _logger;
 
-        public Index(ILogger<Index> logger)
+        public Delete(ILogger<Delete> logger)
         {
             _logger = logger;
         }

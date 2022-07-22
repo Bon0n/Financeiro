@@ -33,9 +33,9 @@ namespace Financeiro.Application.Services
             return _mapper.Map<BankDTO>(bankEntity);
         }
 
-        public async Task Remove(BankDTO bankDto)
+        public async Task Remove(int? id)
         {
-            var bankEntity = _mapper.Map<Bank>(bankDto);
+            var bankEntity = _bankRepository.GetById(id).Result;
             await _bankRepository.Remove(bankEntity);
 
         }
@@ -45,5 +45,11 @@ namespace Financeiro.Application.Services
             var bankEntity = _mapper.Map<Bank>(bankDto);
             await _bankRepository.Update(bankEntity);
 ;        }
+
+        public async Task<BankDTO> GetBankPersonId(int? id)
+        {
+            var bankEntity = await _bankRepository.GetBankPersonId(id);
+            return _mapper.Map<BankDTO>(bankEntity);
+        }
     }
 }

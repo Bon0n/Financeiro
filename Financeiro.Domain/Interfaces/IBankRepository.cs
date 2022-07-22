@@ -6,7 +6,7 @@ namespace Financeiro.Domain.Interfaces
     {
         Task<Bank> GetById(int? id);
         Task<IEnumerable<Bank>> GetBanks();
-        Task<IEnumerable<Card>> GetCards();
+        Task<Bank> GetBankPersonId(int? id);
         Task<Bank> Create(Bank bank);
         Task<Bank> Update(Bank bank);
         Task<Bank> Remove(Bank bank);

@@ -34,9 +34,9 @@ namespace Financeiro.Application.Services
             return _mapper.Map<IEnumerable<PersonDTO>>(personEntity);
         }
 
-        public async Task Remove(PersonDTO personDto)
+        public async Task Remove(int? id)
         {
-            var personEntity = _mapper.Map<Person>(personDto);
+            var personEntity = _personRepository.GetById(id).Result;
             await _personRepository.Remove(personEntity);
         }
 
@@ -44,6 +44,12 @@ namespace Financeiro.Application.Services
         {
             var personEntity = _mapper.Map<Person>(personDto);
             await _personRepository.Update(personEntity);
+        }
+
+        public async Task<IEnumerable<BankDTO>> GetBanks(int? id)
+        {
+            var personEntity = await _personRepository.GetBanks(id);
+            return _mapper.Map<IEnumerable<BankDTO>>(personEntity);
         }
     }
 }

@@ -9,14 +9,19 @@ namespace Financeiro.Application.DTOs
         public int Id { get; set; }
 
         [Required(ErrorMessage = "É necessário preencher o nome")]
+        [MinLength(3)]
+        [MaxLength(100)]
         [DisplayName("Nome")]
         public string Name { get; set; }
 
+        /*
         [Required(ErrorMessage = "É necessário informar renda")]
         [Column(TypeName = "decimal(15,2)")]
         [DisplayFormat(DataFormatString = "{0:C2}")]
         [DataType(DataType.Currency)]
         [DisplayName("Renda")]
-        public decimal Income { get; set; }
+        public decimal? Income { get; set; }
+        */
+        public BankDTO BankDto{ get; set; }
     }
 }

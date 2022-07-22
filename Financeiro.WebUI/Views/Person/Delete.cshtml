@@ -1,0 +1,19 @@
+@model Financeiro.Application.DTOs.PersonDTO;
+@{
+    ViewData["Title"] = "Deletar Pessoa";
+}
+<h2>@ViewData["Title"]</h2>
+<form asp-action="Delete" method="post">
+    <div class="form-horizontal">
+        <hr/>
+        <div class="form-group">
+            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <input asp-for="Name" class="form-control" disabled>
+        </div>
+        <hr>
+        <div class="form-group">
+            <h2>Bancos</h2>
+            
+        </div>
+    </div>
+</form>
