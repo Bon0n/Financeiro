@@ -49,7 +49,8 @@ namespace Financeiro.WebUI.Controllers
         [HttpGet]
         public async Task<IActionResult> Finances(int? id)
         {
-            var personDto = await _personService.GetById(id);
+            var bankDto = await _bankService.GetBankPersonId(id);
+            var personDto = await _personService.GetBanks(id);
             return View(personDto);
         }
     }

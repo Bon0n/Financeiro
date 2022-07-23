@@ -36,6 +36,13 @@ namespace Financeiro.WebUI.Controllers
             return View(bankDto);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            var bankDto = await _bankService.GetBankPersonId(id);
+            return View(bankDto);
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

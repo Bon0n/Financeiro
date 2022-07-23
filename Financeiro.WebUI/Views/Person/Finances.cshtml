@@ -41,7 +41,8 @@
         <tbody>
             <tr>
                 <td>
-                    @Html.DisplayFor(model => model.BankDto.Person)
+                    @Html.DisplayNameFor(Model => Model.Bank)
+                    @Html.DisplayFor(Model => Model.Bank.Name)
                 </td>
             </tr>
         </tbody>

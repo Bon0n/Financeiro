@@ -46,10 +46,10 @@ namespace Financeiro.Application.Services
             await _personRepository.Update(personEntity);
         }
 
-        public async Task<IEnumerable<BankDTO>> GetBanks(int? id)
+        public async Task<PersonDTO> GetBanks(int? id)
         {
             var personEntity = await _personRepository.GetBanks(id);
-            return _mapper.Map<IEnumerable<BankDTO>>(personEntity);
+            return _mapper.Map<PersonDTO>(personEntity);
         }
     }
 }

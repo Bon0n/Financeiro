@@ -10,10 +10,12 @@ namespace Financeiro.Application.DTOs
         [Required(ErrorMessage = "É necessário preencher o Nome")]
         [MinLength(3)]
         [MaxLength(100)]
-        [Display(Name = "Nome")]
+        [Display(Name = "Banco")]
         public string Name { get; set; } 
         public int PersonId { get; set; }
         [Display(Name = "Pessoa")]
-        public Person Person { get; set; }         
+        public Person Person { get; set; } 
+
+                
     }
 }

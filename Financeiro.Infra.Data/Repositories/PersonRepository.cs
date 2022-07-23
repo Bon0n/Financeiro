@@ -20,9 +20,10 @@ namespace Financeiro.Infra.Data.Repositories
             return person;
         }
 
-        public async Task<IEnumerable<Bank>> GetBanks(int? id)
+        public async Task<Person> GetBanks(int? id)
         {
-            return await _personContext.Banks.ToListAsync();
+            return await _personContext.People.Include(p => p.Banks)
+                .SingleOrDefaultAsync(p => p.Id == id);
         }
 
         public async Task<Person> GetById(int? id)

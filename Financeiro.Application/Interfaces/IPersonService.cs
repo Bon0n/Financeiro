@@ -4,7 +4,7 @@ namespace Financeiro.Application.Interfaces
     public interface IPersonService
     {
         Task<PersonDTO> GetById(int? id);
-        Task<IEnumerable<BankDTO>> GetBanks(int? id);
+        Task<PersonDTO> GetBanks(int? id);
         Task<IEnumerable<PersonDTO>> GetPeople();
         Task Create(PersonDTO personDto);
         Task Update(PersonDTO personDto);
